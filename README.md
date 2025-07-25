@@ -12,8 +12,8 @@ This is a Django REST Framework-based backend system for a hospital application 
 
 ## 🚀 Features
 
-- JWT-based authentication (`/api/token/`, `/api/token/refresh/`)
-- Patient self-registration endpoint (`/api/register/`)
+- JWT-based authentication (`/api/auth/login`, `/api/auth/refresh/`)
+- Patient self-registration endpoint (`/api/auth/register/`)
 - Admin-managed doctor creation via admin panel or API
 - Permissions:
   - Patients can manage only their own records
@@ -57,11 +57,3 @@ This is a Django REST Framework-based backend system for a hospital application 
 | Admin    | ❌           | ✅            | ✅              | All               |
 | Anonymous| ❌           | ✅            | ❌              | ❌                |
 
----
-
-## 🧪 Running the Project Locally
-
-### 1. Clone the Repo
-```bash
-git clone https://github.com/yourusername/hospital-api.git
-cd hospital-api
