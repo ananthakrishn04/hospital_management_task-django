@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Django
+*.log
+db.sqlite3
+
+
+# Environment
+.env
+env/
+*.env
+
+# VS Code
+.vscode/
+
+# System Files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Postman
+*.postman_collection.json
